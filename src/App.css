@@ -1,22 +1,60 @@
-.App {
+/* .App {
   text-align: center;
+} */
+
+Button.button {
+  color: white;
 }
 
-.App-logo {
-  height: 40vmin;
+section {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  /* overflow: hidden; */
 }
 
-.App-header {
-  background-color: #282c34;
+body {
+}
+
+div.Header {
+  padding: 24px;
+  height: 100%;
+  z-index: 1;
+}
+
+div.Content {
+  background-color: white;
+  padding: 24px;
+  height: 100%;
+  z-index: 1;
+}
+
+#Header canvas.background {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(120,50,255,1) 0%,
+    rgba(50,150,250,1) 91%
+  );
+
+  /* background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    #212121 0%,
+    #333333 91%
+  ); */
+
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* .App-header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
-}
+} */
