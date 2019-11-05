@@ -2,54 +2,6 @@
   text-align: center;
 } */
 
-Button.button {
-  color: white;
-}
-
-section {
-  display: flex;
-  flex-flow: column;
-  height: 100vh;
-  /* overflow: hidden; */
-}
-
-body {
-}
-
-div.Header {
-  padding: 24px;
-  height: 100%;
-  z-index: 1;
-}
-
-div.Content {
-  background-color: white;
-  padding: 24px;
-  height: 100%;
-  z-index: 1;
-}
-
-#Header canvas.background {
-  background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgba(120,50,255,1) 0%,
-    rgba(50,150,250,1) 91%
-  );
-
-  /* background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    #212121 0%,
-    #333333 91%
-  ); */
-
-  position: fixed;
-  display: block;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
-
 /* .App-header {
   min-height: 100vh;
   display: flex;
@@ -58,3 +10,39 @@ div.Content {
   justify-content: center;
   font-size: calc(10px + 2vmin);
 } */
+
+section {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+div.Header {
+  padding: 24px;
+  height: 100%;
+  z-index: 1;
+}
+
+section#About {
+  padding: 24px;
+  height: 100vh;
+}
+
+section#Skills {
+  padding: 24px;
+  height: 100vh;
+}
+
+
+div.About {
+  padding: 24px;
+  height: 100%;
+  z-index: 1;
+}
+
+div.Skills {
+  padding: 24px;
+  height: 100%;
+  z-index: 1;
+}

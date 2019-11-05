@@ -1,28 +1,26 @@
 import React from 'react';
-import {Box, Typography} from '@material-ui/core/'
+import {Box, Typography, Paper, Container} from '@material-ui/core/'
 
 class About extends React.Component {
   content() {
     return(
-      <div className="Content">
-        <Typography variant="h4">
-          Test
+      <Box className="About">
+        <Typography style={{paddingBottom: "24px"}} variant="h2">
+          I'm Alex Franco
         </Typography>
-        <Typography variant="body1">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic itaque
-          dicta pariatur consequuntur. Consectetur accusamus optio a quos odit
-          minus dolorum officia commodi! Quidem necessitatibus accusantium
-          dignissimos est, aliquid dolor.
+        <Typography variant="h5">
+          I'm a junior software engineer. I'm currently a senior at the
+          University of Central Florida where I'm studying computer science.
         </Typography>
-      </div>
+      </Box>
     );
   }
 
   render() {
     return(
-      <Box id="About" component="section">
+      <Container id="About" maxWidth="md" component="section">
         {this.content()}
-      </Box>
+      </Container>
     );
   }
 }
