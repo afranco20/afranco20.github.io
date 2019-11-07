@@ -1,9 +1,9 @@
-import React from 'react';
-import {Box, Container, Typography} from '@material-ui/core/';
+import React from "react";
+import { Container, Typography } from "@material-ui/core/";
 
 class Intro extends React.Component {
   content() {
-    return(
+    return (
       <Container className="Header">
         <Typography color="textSecondary" variant="h1">
           Hello World
@@ -13,10 +13,10 @@ class Intro extends React.Component {
   }
 
   render() {
-    return(
-        <Container id="Header" component="section">
-          {this.content()}
-        </Container>
+    return (
+      <Container id="Header" component="section">
+        {this.content()}
+      </Container>
     );
   }
 }

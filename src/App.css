@@ -1,15 +1,3 @@
-/* .App {
-  text-align: center;
-} */
-
-/* .App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-} */
 
 section {
   display: flex;
@@ -26,12 +14,10 @@ div.Header {
 
 section#About {
   padding: 24px;
-  height: 100vh;
 }
 
 section#Skills {
   padding: 24px;
-  height: 100vh;
 }
 
 
